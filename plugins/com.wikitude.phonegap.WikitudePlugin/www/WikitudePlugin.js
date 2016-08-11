@@ -8,6 +8,7 @@
 		/**
 		 *  This is the SDK Key, provided to you after you purchased the Wikitude SDK from http =//www.wikitude.com/store/.
 		 *  You can obtain a free trial key at http =//www.wikitude.com/developer/licenses .
+		 *  TODO: replace this sdk key with a real one and add this file to .gitignore
 		 */
 		this._sdkKey = "vHVfBnSCPopDRzYw1OPYHNYdkFAkR2ZvvOqsSvNDne7j13PzDtVaoxu8vc1yvHPQXW00yAzK5ho/Xylraig2d8IkEy755SRa9ganjTI4x10gY+vFLCdcrxeDUyZ979RnzaA9nlPYXZH3u13X6zfzXV3tR7ybNCLSPBdmtptX29VTYWx0ZWRfX6J9DVLN2C9CdX0UuIq9zhQrWRFgSUnhIMCnz0ujcaXIwZ5zGdDXCmkoJd1PUXwgHX2s6RlfsuQJZEh+xdznVmUiVncpS7hpNmv71DW20v44yMk6v98xpWU7bBKE+ljZderyTGD7imHekGpNzQ+1K724JOAocG/Z9vH3OMYHPHCZI/nPnivOJE7apaC61CsS8zge5kFNQxOlqgdLWYDWL4SbDatQpk/zHSatzq60Pk2//XLfljFVhKCTBC0HkNuOc6dDdXoPk5kDW/EJA2lSxz0V9SUbYZ06ts+wlOVEku5w2RSB538ugnCxcBsRojyhrOxm0NA57/w1d7a1K2qtCgUMmDLE1zwZJvYUQGG7ta55xMF6D5uTfzOM3fEjml8FXqli/rcnXw3bXFVURe/nPhlHd3ChORXv+4qE5iq2ExV/wSA5Y74YgCILwqEINAERFIMH0m6wannxEtBxqt28Hj9UkMGCZ/kzsKTQmoWokWSCOCHF5SX0Cw8=";
 
