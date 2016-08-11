@@ -185,9 +185,9 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-whitelist": "1.2.2",
     "com.wikitude.phonegap.WikitudePlugin": "5.2.0",
     "cordova-plugin-file": "4.2.0",
+    "cordova-plugin-whitelist": "1.2.2",
     "cordova-plugin-compat": "1.0.0"
 };
 // BOTTOM OF METADATA

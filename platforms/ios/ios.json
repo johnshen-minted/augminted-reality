@@ -22,17 +22,17 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.wikitude.phonegapsamples"
-        },
         "com.wikitude.phonegap.WikitudePlugin": {
-            "PACKAGE_NAME": "com.wikitude.phonegapsamples"
+            "PACKAGE_NAME": "com.wikitude.augminted-reality"
         },
         "cordova-plugin-file": {
-            "PACKAGE_NAME": "com.wikitude.phonegapsamples"
+            "PACKAGE_NAME": "com.wikitude.augminted-reality"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.wikitude.augminted-reality"
         },
         "cordova-plugin-compat": {
-            "PACKAGE_NAME": "com.wikitude.phonegapsamples"
+            "PACKAGE_NAME": "com.wikitude.augminted-reality"
         }
     },
     "dependent_plugins": {},
@@ -220,9 +220,9 @@
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.2.2",
         "com.wikitude.phonegap.WikitudePlugin": "5.2.0",
         "cordova-plugin-file": "4.2.0",
+        "cordova-plugin-whitelist": "1.2.2",
         "cordova-plugin-compat": "1.0.0"
     }
 }
