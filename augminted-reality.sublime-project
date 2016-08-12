@@ -1,0 +1,9 @@
+{
+  "folders":
+  [
+    {
+      "path": "/users/johnshen/src/augminted-reality",
+      "folder_exclude_patterns": ["platforms"]
+    }
+  ]
+}
