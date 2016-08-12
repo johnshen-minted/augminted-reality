@@ -1,0 +1,25 @@
+{
+  "name": "augminted-reality",
+  "version": "0.0.1",
+  "description": "Marker based rendering of art prints",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cordova clean && cordova build",
+    "scss": "node-sass --output-style compressed -o www/css www/scss",
+    "build-all": "npm run scss && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnshen-minted/augminted-reality.git"
+  },
+  "author": "John Shen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnshen-minted/augminted-reality/issues"
+  },
+  "homepage": "https://github.com/johnshen-minted/augminted-reality#readme",
+  "devDependencies": {
+    "node-sass": "3.8.0"
+  }
+}
