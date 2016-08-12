@@ -7,6 +7,7 @@
 		<meta content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes" name="viewport">
 		<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/app.css" />
 	</head>
 
 	<body>
@@ -18,15 +19,11 @@
 
 		<div data-role="page" id="page1" style="background: none;" >
 
-			<div id ="header-status" data-role="header" data-position="fixed" data-theme="a">
-				<h2>Augminted Reality</h2>
+			<div class="splash-header"
+				onClick="javascript:app.loadARchitectWorld(wallArtConfig);">
+				<h2 class="app-title">Augminted Reality</h2>
 			</div>
 
-			<div data-theme="e" data-content-theme="d">
-				<a href="javascript:app.loadARchitectWorld(wallArtConfig);">
-					Buy Wall Art
-				</a>
-			</div>
 		</div>
 
 	</body>
