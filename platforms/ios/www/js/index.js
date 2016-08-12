@@ -72,25 +72,6 @@ var app = {
         architectWorld.requiredFeatures
         );
     },
-    loadExampleARchitectWorld: function(example) {
-        console.log('loading example AR world')
-
-        app.isArchitectWorldLoaded = false;
-        // inject poi data using phonegap's GeoLocation API and inject data using World.loadPoisFromJsonData
-        if ( example.requiredExtension === "ObtainPoiDataFromApplicationModel" ) {
-            prepareApplicationDataModel();
-        }
-
-        /* cordova.file.applicationDirectory is used to demonstrate the use of the cordova file plugin in combination with the Wikitude plugin */
-        /* The length check here is only necessary because for each example the same 'example' object is given here and we only want to change the path once. */
-        if ( example.path.length > cordova.file.applicationDirectory ) {
-            if ( example.path.substring(0, cordova.file.applicationDirectory) != cordova.file.applicationDirectory ) {
-                example.path = cordova.file.applicationDirectory + example.path;
-            }
-        }
-
-        app.loadARchitectWorld(example);
-    },
     loadCustomARchitectWorldFromURL: function(url) {
         console.log('loading custom AR world from ' + url)
         var world = {
